@@ -1,2 +1,6 @@
-config SHIELD_NUMPAD
-    def_bool $(shields_list_contains, numpad)
+if SHIELD_NUMPAD
+
+config ZMK_KEYBOARD_NAME
+    default "numpad"
+
+endif
