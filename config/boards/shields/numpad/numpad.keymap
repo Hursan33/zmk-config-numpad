@@ -16,8 +16,8 @@
             &lt 1 A   &kp B
             &kp C   &kp D   &kp E   &kp F   &kp G
             &kp H   &kp I   &kp J   &kp K   &kp L   &kp M
-            &kp N   &kp O   &kp P   &kp Q   &kp R
-                &kp S   &kp T   &kp U   &kp V   &kp W
+            &kp N   &kp O   &kp P   &kp Q   &bt BT_DISC
+                &out OUT_BLE   &bootloader   &sys_reset   &bt BT_SEL 0   &bt BT_CLR_ALL
             >;
         };
 
