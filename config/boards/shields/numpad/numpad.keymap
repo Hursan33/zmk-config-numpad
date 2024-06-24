@@ -1,17 +1,31 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+&lt {
+    tapping-term-ms = <200>;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = < 
-            &kp A   &bootloader
+            &lt 1 A   &kp B
             &kp C   &kp D   &kp E   &kp F   &kp G
             &kp H   &kp I   &kp J   &kp K   &kp L   &kp M
             &kp N   &kp O   &kp P   &kp Q   &kp R
                 &kp S   &kp T   &kp U   &kp V   &kp W
+            >;
+        };
+
+        bt_layer {
+            bindings = < 
+            &none   &bootloader
+            &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &none   &none
+            &none   &none   &none   &none   &none   &none
+            &none   &none   &none   &none   &none
+                &none   &none   &none   &none   &none
             >;
         };
     };
