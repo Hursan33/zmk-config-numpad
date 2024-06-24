@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
 
 &lt {
     tapping-term-ms = <200>;
@@ -24,7 +25,7 @@
             bindings = < 
             &none   &bootloader
             &sys_reset   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_CLR_ALL
-            &none   &none   &none   &none   &none   &none
+            &out OUT_BLE  &none   &none   &none   &none   &none
             &none   &none   &none   &none   &none
                 &none   &none   &none   &none   &none
             >;

@@ -1,2 +1,3 @@
+CONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y
 config SHIELD_NUMPAD
     def_bool $(shields_list_contains, numpad)
