@@ -18,6 +18,16 @@
                 , <&macro_tap &kp SPACE>
                 ;
         };
+        plus_minus: zed_em_kay {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp INS>
+                , <&macro_tap &kp N1>
+                , <&macro_tap &kp SLASH>
+                , <&macro_release &kp INS>
+                ;
+        };
     };
 
     keymap {
