@@ -13,10 +13,10 @@
         default_layer {
             bindings = < 
             &lt 1 A   &kp LS(N1)
-            &kp KP_N1   &kp D   &kp E   &kp F   &kp G
-            &kp H   &kp I   &kp J   &kp K   &kp L   &kp M
-            &kp N   &kp O   &kp P   &kp Q   &kp R
-                &kp S   &kp T   &kp U   &kp V   &kp W
+            &kp LS(N7)   &kp LS(N8)   &kp LS(N9)   &kp N1   &kp G
+            &kp LS(N4)   &kp LS(N5)   &kp LS(N6)   &kp SLASH   &kp L   &kp M
+            &kp LS(N1)   &kp LS(N2)   &kp LS(N3)   &kp RA(SLASH)   &kp R
+                &kp LS(N0)   &kp COMMA   &kp LS(LBKT)   &kp V   &kp W
             >;
         };
 
