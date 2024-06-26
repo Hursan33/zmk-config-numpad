@@ -12,7 +12,7 @@
 
         default_layer {
             bindings = < 
-            &lt 1 A   &kp LS(1)
+            &lt 1 A   &kp LS(N1)
             &kp KP_N1   &kp D   &kp E   &kp F   &kp G
             &kp H   &kp I   &kp J   &kp K   &kp L   &kp M
             &kp N   &kp O   &kp P   &kp Q   &kp R
