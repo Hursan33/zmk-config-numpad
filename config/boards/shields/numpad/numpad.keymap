@@ -18,7 +18,7 @@
                 , <&macro_tap &kp SPACE>
                 ;
         };
-        plus_minus: zed_em_kay {
+        plus_minus: zed_em_kay2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
