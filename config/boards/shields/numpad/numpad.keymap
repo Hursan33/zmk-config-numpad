@@ -28,7 +28,7 @@
                 , <&macro_release &kp INS>
                 ;
         };
-        alpha: zed_em_kay2 {
+        alpha: zed_em_kay3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
