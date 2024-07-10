@@ -28,6 +28,16 @@
                 , <&macro_release &kp INS>
                 ;
         };
+        alpha: zed_em_kay2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp INS>
+                , <&macro_tap &kp RA(SLASH)>
+                , <&macro_tap &kp a>
+                , <&macro_release &kp INS>
+                ;
+        };
     };
 
     keymap {
@@ -35,7 +45,7 @@
 
         default_layer {
             bindings = < 
-            &lt 1 A   &kp RA(Q)
+            &lt 1 alpha   &kp RA(Q)
             &kp LS(N7)   &kp LS(N8)   &kp LS(N9)   &kp LS(LBKT)   &kp BACKSPACE
             &kp LS(N4)   &kp LS(N5)   &kp LS(N6)   &kp RA(SLASH)   &kp MINUS   &strieska
             &kp LS(N1)   &kp LS(N2)   &kp LS(N3)   &kp SLASH   &plus_minus
