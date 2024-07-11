@@ -235,7 +235,7 @@
 
         default_layer {
             bindings = < 
-            &mo 2   &kp RA(Q)
+            &to 2   &lt 1 RA(Q)
             &kp LS(N7)   &kp LS(N8)   &kp LS(N9)   &kp LS(LBKT)   &kp BACKSPACE
             &kp LS(N4)   &kp LS(N5)   &kp LS(N6)   &kp RA(SLASH)   &kp MINUS   &strieska
             &kp LS(N1)   &kp LS(N2)   &kp LS(N3)   &kp SLASH   &plus_minus
@@ -255,11 +255,11 @@
 
         greek {
             bindings = < 
-            &lt 1 A   &alpha
-            &betta   &delta   &epsilon   &eta   &none
+            &to 0   &alpha
+            &betta   &delta   &epsilon   &eta   &kp BACKSPACE
             &theta   &kappa   &lambda   &mu   &nu   &xi
             &ro   &sigma   &tau   &pi   &phi
-                &chi   &omikron   &psi   &omega   &none
+                &chi   &omikron   &psi   &omega   &kp ENTER
             >;
         };
     };
