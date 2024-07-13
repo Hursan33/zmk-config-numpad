@@ -194,7 +194,7 @@
             bindings
                 = <&macro_press &kp INS>
                 , <&macro_tap &kp RA(SLASH)>
-                , <&macro_tap &kp C>
+                , <&macro_tap &kp X>
                 , <&macro_release &kp INS>
                 ;
         };
@@ -214,7 +214,7 @@
             bindings
                 = <&macro_press &kp INS>
                 , <&macro_tap &kp RA(SLASH)>
-                , <&macro_tap &kp V>
+                , <&macro_tap &kp C>
                 , <&macro_release &kp INS>
                 ;
         };
