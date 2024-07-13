@@ -266,7 +266,7 @@
 
         greek {
             bindings = < 
-            &mo_tog 1 0  &alpha
+            &mo_tog 1 2  &alpha
             &betta   &delta   &epsilon   &eta   &kp BACKSPACE
             &theta   &kappa   &lambda   &mu   &nu   &xi
             &ro   &sigma   &tau   &pi   &phi
